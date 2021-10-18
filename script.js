@@ -133,6 +133,7 @@ for (let i=0; i < allBtn.length; i++){
             displayBottom.textContent = 0;
             displayTop.innerHTML = "";
             divide_byZero.textContent = "";
+            is_Divide_by_Zero = false;
             divide_byZero.classList.remove("active");
         }
         // End - Tombol AC
